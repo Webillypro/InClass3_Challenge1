@@ -1,0 +1,41 @@
+img {
+    width: 600px;
+
+}
+
+.words {
+    font-family: impact;
+    font-size: 60px;
+}
+
+.first {
+    position: absolute;
+    left: 305px;
+    top: 150px;
+}
+
+.heart {
+    color: red;
+    font-size: 80px;
+    position: absolute;
+    top: 139px;
+    left: 322px;
+}
+
+.last {
+    position: absolute;
+    left: 305px;
+    top: 200px;
+}
+
+img {
+    /* Black border */
+    border: 5px solid black;
+
+    /* Space between the border and the image */
+    padding: 10px;
+
+    /* Space around the image */
+    margin: 20px;
+    box-shadow: 5px 5px 10px grey;
+}
